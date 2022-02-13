@@ -50,4 +50,5 @@
    ```
 8. Save changes and go back to the terminal.
 9. Ensure the `/bin/sh` symbolic link points to `/bin/bash` and not `/bin/dash`.
+10. Now compile and run the code using e.g. the shell script in this repository.
 
