@@ -48,4 +48,5 @@
 	  $(shell rm -f disp_git.f90)
 	  $(shell rm -f disp_direct.f90)
    ```
+8. Save changes and go back to the terminal.
 
