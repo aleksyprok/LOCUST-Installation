@@ -33,3 +33,4 @@
    Device Name:                   NVIDIA GeForce RTX 3070
    Device Revision Number:        8.6
    ```
+   where the device revision number here is 8.6.
