@@ -11,7 +11,6 @@
    `nvcc --version`
     
    to give e.g.:
-   
    ```
    nvcc: NVIDIA (R) Cuda compiler driver
    Copyright (c) 2005-2021 NVIDIA Corporation
@@ -26,7 +25,6 @@
    `nvaccelinfo`
    
    to give e.g.:
-   
    ```
    CUDA Driver Version:           11060
    NVRM version:                  NVIDIA UNIX x86_64 Kernel Module  510.39.01  Fri Dec 31 11:03:22 UTC 2021
