@@ -6,7 +6,7 @@
 
 2 . After it's installed make a note of the cuda version by running:
 
-    `nvcc --version`
+    `nvcc --version `
     
     to give e.g.:
     
