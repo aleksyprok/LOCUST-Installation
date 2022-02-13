@@ -44,11 +44,11 @@
 6. Ensure `CUDALIB = cc86,cuda11.6` where the numbers correspond to your device revision number respectively and CUDA versions respectively.
 
 7. Add `-lstdc++` to ensure the code reads like this:
-
    ```
    locust: $(OBJECTS)
 	  $(FC) $(FCFLAGS) -o locust $(OBJECTS) -lstdc++
 	  $(shell rm -f disp_git.f90)
 	  $(shell rm -f disp_direct.f90)
    ```
+   this 
 
