@@ -8,4 +8,4 @@
 
    `nvcc --version`
     
-    to give e.g.
+   to give e.g.
