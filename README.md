@@ -41,7 +41,7 @@
 
 6. Ensure `CUDALIB = cc86,cuda11.6` where the numbers correspond to your device revision number respectively and CUDA versions respectively.
 
-7. To fix a `pgacclnk` error dyuring compilation add  `-lstdc++` flag so the code reads like this:
+7. To fix a `pgacclnk` error dyuring compilation add the `-lstdc++` flag so the code reads like this:
    ```
    locust: $(OBJECTS)
 	  $(FC) $(FCFLAGS) -o locust $(OBJECTS) -lstdc++
