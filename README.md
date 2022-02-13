@@ -8,7 +8,7 @@
 
    `nvcc --version`
     
-   to give e.g.
+   to give e.g.:
    
    ```
    nvcc: NVIDIA (R) Cuda compiler driver
@@ -18,3 +18,18 @@
    Build cuda_11.6.r11.6/compiler.30794723_0
    ```
    where the CUDA version is 11.6 here.
+   
+3. Make a note of your GPU device revision number by running:
+
+   `nvaccelinfo`
+   
+   to give e.g.:
+   
+   ```
+   CUDA Driver Version:           11060
+   NVRM version:                  NVIDIA UNIX x86_64 Kernel Module  510.39.01  Fri Dec 31 11:03:22 UTC 2021
+
+   Device Number:                 0
+   Device Name:                   NVIDIA GeForce RTX 3070
+   Device Revision Number:        8.6
+   ```
