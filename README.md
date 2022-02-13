@@ -36,3 +36,5 @@
    Device Revision Number:        8.6
    ```
    where the device revision number here is 8.6.
+
+4. Edit makefile and replace every instance of `pgfortran` with `nvfortran`. 
