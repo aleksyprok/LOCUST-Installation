@@ -1,10 +1,12 @@
 # LOCUST-Installation
 
-1. Download and install Nvidia HPC SDK with the newest CUDA version from here:
+1. Download LOCUST.
+
+2. Download and install Nvidia HPC SDK with the newest CUDA version from here:
    
    `https://developer.nvidia.com/hpc-sdk`
 
-2. Make a note of the CUDA version by running:
+3. Make a note of the CUDA version by running:
 
    `nvcc --version`
     
@@ -19,7 +21,7 @@
    ```
    where the CUDA version is 11.6 here.
    
-3. Make a note of your GPU device revision number by running:
+4. Make a note of your GPU device revision number by running:
 
    `nvaccelinfo`
    
