@@ -17,3 +17,4 @@
    Cuda compilation tools, release 11.6, V11.6.55
    Build cuda_11.6.r11.6/compiler.30794723_0
    ```
+   where the CUDA version is 11.6 here.
