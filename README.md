@@ -8,3 +8,4 @@
 
    `nvcc --version`
     
+    to give e.g.
