@@ -37,4 +37,9 @@
    ```
    where the device revision number here is 8.6.
 
-4. Edit makefile and replace every instance of `pgfortran` with `nvfortran`. 
+4. Open makefile with a text editor.
+
+5. Replace every instance of `pgfortran` with `nvfortran`. 
+
+6. Ensure `CUDALIB = cc86,cuda11.6` where the numbers correspond to your device revision number respectively and CUDA versions respectively.
+
