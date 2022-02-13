@@ -4,7 +4,7 @@
    
    `https://developer.nvidia.com/hpc-sdk`
 
-2. Try to install the stuff mentioned here:
+2. Make a note of the CUDA version by running:
 
-   `https://www.l3harrisgeospatial.com/Support/Self-Help-Tools/Help-Articles/Help-Articles-Detail/ArtMID/10220/ArticleID/16146/IDL-fails-to-install-on-Linux-What-to-do`
+   `nvcc --version`
     
