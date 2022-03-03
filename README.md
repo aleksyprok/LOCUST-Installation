@@ -41,7 +41,9 @@
 
 6. Ensure `CUDALIB = cc86,cuda11.6` where the numbers correspond to your device revision number respectively and CUDA versions respectively.
 
-7. Add the `-lstdc++` flag so the code reads like this:
+7. Remove the `-lhdf5_fortran` flag.
+
+8. Add the `-lstdc++` flag so the code reads like this:
    ```
    locust: $(OBJECTS)
 	  $(FC) $(FCFLAGS) -o locust $(OBJECTS) -lstdc++
@@ -49,7 +51,7 @@
 	  $(shell rm -f disp_direct.f90)
    ```
    this prevents a `pgacclnk` error from occuring during compilation.
-8. Save changes and go back to the terminal.
-9. Ensure the `/bin/sh` symbolic link points to `/bin/bash` and not `/bin/dash`.
-10. Now compile and run the code using e.g. the shell script in this repository.
+9. Save changes and go back to the terminal.
+10. Ensure the `/bin/sh` symbolic link points to `/bin/bash` and not `/bin/dash`.
+11. Now compile and run the code using e.g. the shell script in this repository.
 
