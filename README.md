@@ -39,7 +39,7 @@
 
 5. Replace every instance of `pgfortran` with `nvfortran`. 
 
-6. Ensure `CUDALIB = cc86,cuda11.6` where the numbers correspond to your device revision number respectively and CUDA versions respectively.
+6. Ensure `CUDALIB = cc86,cuda11.6` where the numbers correspond to your device revision number and CUDA versions respectively.
 
 7. Remove the `-lhdf5_fortran` flag.
 
